@@ -1,0 +1,51 @@
+.item-box {
+    background-color: #fff;
+    .item-box__header {
+        background-color: $primary-color;
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 30px 20px 60px 20px;
+    }
+    .item-box__body {
+        display: flex;
+        padding: 20px;
+    }
+    .item-box__left {
+        flex: 1 60%;
+        padding-right: 10px;
+    }
+    .item-box__right {
+        flex: 1 40%;
+        .item-box__title {
+            margin-bottom: 58px;
+        }
+    }
+
+    .item-box__title {
+        display: flex;
+        align-items: center;
+        text-transform: uppercase;
+        color: #8fa5ee;
+        margin-bottom: 30px;
+    }
+
+    .item-box__action {
+        background-color: $bg-color;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .item-detail {
+        .item-detail__text {
+            background-color: $bg-color;
+            padding: 5px 10px;
+        }
+        .item-detail__label {
+            color: #bec0cf;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        margin-bottom: 30px;
+    }
+}

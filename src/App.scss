@@ -1,0 +1,22 @@
+@import './variables.scss';
+@import './components/Navbar/styles.scss';
+@import './components/Loader/styles.scss';
+@import './components/ItemsList/styles.scss';
+@import './components/ItemDetails/styles.scss';
+@import './components/Hint/styles.scss';
+@import './containers/Items/styles.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: $text-color;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

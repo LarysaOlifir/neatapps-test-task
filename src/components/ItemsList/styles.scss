@@ -1,0 +1,33 @@
+.items-list {
+    background-color: #fff;
+    .items-list__header {
+        font-size: 20px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .items-list__item {
+        display: flex;
+        text-decoration: none;
+        color: $text-color;
+        align-items: center;
+        padding: 10px;
+        border-top: 1px solid $bg-color;
+        &:last-child {
+            border-bottom: 1px solid $bg-color;
+        }
+        &.active, &:hover {
+            background-color: $bg-color;
+            border-left: 2px solid blue;
+            padding-left: 8px;
+            &>:last-child {
+               display: block;
+            }
+        }
+        .items-list__item__name {
+            flex: 1;
+        }
+        &>:last-child {
+            display: none;
+        }
+    }
+}

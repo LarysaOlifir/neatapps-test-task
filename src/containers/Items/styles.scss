@@ -1,0 +1,12 @@
+.items-container {
+    display: flex;
+    flex: 1;
+    background-color: $bg-color;
+    .items-list {
+        flex: 0 30%;
+    }
+    .items-conteiner__details {
+        padding: 30px 50px;
+        flex: 1;
+    }
+}
